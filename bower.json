@@ -1,0 +1,25 @@
+{
+  "name": "simple-todo-list",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jdoubleua/simple-todo-list",
+  "authors": [
+    "Jeremy Alexander <jdoubleua@gmail.com>"
+  ],
+  "main": "app.js",
+  "keywords": [
+    "backbone",
+    "todo"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone-localstorage": "~0.3.2",
+    "backbone": "~1.1.2"
+  }
+}

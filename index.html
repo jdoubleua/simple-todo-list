@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>hello-backbonejs</title>
+</head>
+<body>
+<form action="" id="form">
+    <input type="text" placeholder="Enter new task">
+    <input type="submit" value="Add task">
+</form>
+<script type="text/template" id="taskTemplate">
+    <span> <%= title %> </span><button class="edit">Edit</button> <button class="delete">Delete</button>
+</script>
+<!--Libs-->
+<script src="bower_components/jQuery/dist/jquery.js"></script>
+<script src="bower_components/underscore/underscore.js"></script>
+<script src="bower_components/backbone/backbone.js"></script>
+<script src="app.js"></script>
+
+
+</body>
+</html>
