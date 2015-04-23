@@ -73,6 +73,7 @@
 
     App.Views.Tasks = Backbone.View.extend({
         tagName : 'ul',
+        className: 'list-unstyled',
         initialize: function(){
             this.collection.on("add",this.addOne,this);
         },
@@ -89,7 +90,8 @@
 
     var tasksCollection = new App.Collections.Tasks([
         {
-            title: 'Go to the shop'
+            title: 'Go to California',
+            desc: 'Fly miles to the west coast of America for fun.'
         },
         {
             title: 'Go watch cosmos'
